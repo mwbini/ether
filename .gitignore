@@ -1,0 +1,13 @@
+__pycache__
+.idea
+.DS_Store
+*.egg-info
+build
+.venv
+.vscode
+
+# formats
+*.zip
+*.tar.gz
+*.csv
+*.pth
