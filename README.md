@@ -6,11 +6,11 @@
     <img src="./imgs/ether.png" width="950">
 </h1>
 
-Official PyTorch implementation of [**_ETHER_: Efficient Finetuning of Large-Scale Models with Hyperplane Reflections**](https://arxiv.org/), M. Bini, K. Roth, Z. Akata, A. Khoreva (ICML 2024)
+Official PyTorch implementation of [**_ETHER_: Efficient Finetuning of Large-Scale Models with Hyperplane Reflections**](https://arxiv.org/abs/2405.20271), M. Bini, K. Roth, Z. Akata, A. Khoreva (ICML 2024)
 
 
 
-[Paper](https://arxiv.org/) | [Contact](massimo.bini@uni-tuebingen.de) | [Cite](#Citation)
+[Paper](https://arxiv.org/abs/2405.20271) | [Contact](massimo.bini@uni-tuebingen.de) | [Cite](#Citation)
 
 
 **TLDR:** _ETHER_ and its relaxation _ETHER+_ finetune pretrained models by applying hyperplane reflections on the pretrained weights. Both these metohds show extreme parameter-efficiency (~10-100 times fewer parameters than OFT or LoRA) while demostrating high robustness to learning rate and hyperparameter choices.
@@ -117,7 +117,13 @@ This code repository is based on the implementation of [litgpt](https://github.c
 ## Citation
 If you find ETHER useful, please consider citing our work:
 ```bibtex
-@article{
+@misc{bini2024ether,
+      title={ETHER: Efficient Finetuning of Large-Scale Models with Hyperplane Reflections}, 
+      author={Massimo Bini and Karsten Roth and Zeynep Akata and Anna Khoreva},
+      year={2024},
+      eprint={2405.20271},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```
 
